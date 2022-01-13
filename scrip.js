@@ -21,6 +21,8 @@ const CrearItem = (actividad) => {
 const GuardarDB = () => {
     localStorage.setItem('rutina', JSON.stringify(arrayActividades));
 
+    PintarDB();
+
 }
 
 const PintarDB = () => {
